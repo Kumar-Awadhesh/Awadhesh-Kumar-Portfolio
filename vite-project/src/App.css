@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.navbar>div{
+  padding: 10px;
+}
+
+.navbar>div:last-child{
+  display: flex;
+  gap: 50px;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+  padding-top: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
