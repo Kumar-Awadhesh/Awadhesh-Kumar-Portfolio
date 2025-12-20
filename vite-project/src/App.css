@@ -13,7 +13,7 @@
   margin: auto;
   position: fixed;
   flex-wrap: wrap;
-  background-color: lightseagreen;
+  background-color: darkcyan;
   justify-content: space-between;
 }
 
@@ -35,7 +35,7 @@
   line-height: 1.5;
 }
 
-.project-title, .skill-title{
+.project-title, .skill-title, .certificate-title, .certificate, .achievement{
   text-align: center;
   margin: auto;
   margin-top: 50px;
@@ -55,7 +55,6 @@
 
 .projects>div{
   width: 500px;
-  height: 400px;
   text-align: center;
   padding: 20px;
   line-height: 2;
@@ -83,7 +82,6 @@
 }
 
 .skills{
-  border: 1px solid;
   margin: auto;
   margin-top: 50px;
 }
@@ -93,7 +91,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 20px 0 20px 0;
+  border-radius: 10px;
   justify-content: center;
+  background-color: lightseagreen;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .skills>img{
@@ -101,4 +103,8 @@
   height: 200px;
   background-color: whitesmoke;
   border-radius: 10px;
+}
+
+.certificate-container>div>a>img{
+  width: 300px;
 }

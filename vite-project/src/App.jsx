@@ -83,10 +83,9 @@ function App() {
           <div>
             <h2>Acko-app</h2>
             <h4>
-              HTML5 | CSS3 | JavaScript | React | Node.js | Express.js | MongoDB | Responsive Web Design
-              Developed a responsive Ul using React, showcasing dynamic form submissions, dropdown menus, and modals.
-              Created a robust server-side API using Node.js and Express.js for handling backend operations.
-              Implemented MongoDB for efficient data storage and retrieval, simulating user authentication and registration functionality
+              HTML5 | CSS3 | JavaScript | 
+              Developed a Ul using JavaScript, HTML, CSS, showcasing dynamic form submissions, dropdown menus, and modals.
+              simulating user authentication and registration functionality
             </h4>
             <p>
               <a href="https://github.com/Kumar-Awadhesh/Acko-app-Project" target='blang'>Code</a>
@@ -107,6 +106,27 @@ function App() {
             </p>
           </div>
         </div>
+        <h1 className='certificate-title'>Certificates and Achievements</h1>
+        <div className='certificate-container'>
+          <h2 className='certificate'>Certificates</h2>
+          <div>
+            <a href="https://drive.google.com/file/d/1xFRyNMl9yQA18XQ4JAWL6tDnISJ0FqEZ/view?usp=sharing" target='blank'><img src="/images/Certificate-of-Participation.jpg" alt="participaton-certificate" /></a>
+            <p>Prepleaf by Masai</p>
+          </div>
+          <div>
+            <img src="https://drive.google.com/file/d/1Q6u8kdTk89bp7BsVkQbUMwFJemBFUWKV/view?usp=sharing" alt="certificate-of-excellence" />
+            <p>Prepleaf by Masai</p>
+          </div>
+          <div>
+            <img src="https://drive.google.com/file/d/1Ak3tuZMxO4TtmEKj04ZjeDdH1NgRhC3e/view?usp=sharing" alt="basic-web-development-certificate" />
+            <p>Prepleaf by Masai</p>
+          </div>
+          <h2 className='achievements'>Achievements</h2>
+          <div>
+            <img src="https://drive.google.com/file/d/1DqqkDGQb8AfXJK7Z-Dx2J_S_Rnf_U1c6/view?usp=sharing" alt="zoom-marathon-challenge-logo" />
+            <p>Prepleaf by Masai</p>
+          </div>
+        </div>
         <h1 className='skill-title'>Technical Skills</h1>
         <div className='skills'>
           <img src="/images/javascript-logo.png" alt="javascript-logo" />
@@ -120,6 +140,7 @@ function App() {
           <img src="/images/git-logo.webp" alt="git-logo" />
           <img src="/images/render-logo.webp" alt="render-logo" />
           <img src="/images/vercel-logo.webp" alt="vercel-logo" />
+          <img src="/images/mongoose-logo.webp" alt="mongoose-logo" />
         </div>
       </main>
     </>
