@@ -3,13 +3,18 @@
   font-family: sans-serif;
 }
 
+.container{
+  background-color: lightblue;
+}
+
 .navbar{
   display: flex;
   width: 100%;
   margin: auto;
-  position: absolute;
+  position: fixed;
+  flex-wrap: wrap;
+  background-color: lightseagreen;
   justify-content: space-between;
-  border: 1px solid;
 }
 
 .navbar>div{
@@ -18,6 +23,7 @@
 
 .navbar>div:last-child{
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -27,4 +33,72 @@
   padding-top: 10%;
   text-align: center;
   line-height: 1.5;
+}
+
+.project-title, .skill-title{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: lightseagreen;
+}
+
+.projects{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.projects>div{
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  line-height: 2;
+  border-radius: 15px;
+  background-color: lightseagreen;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.projects>div>p{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  border-radius: 7px;
+  border: 2px solid greenyellow;
+  justify-content: space-around;
+}
+
+.projects>div>p>a{
+   text-decoration: none;
+   color: black;
+}
+
+.projects>div>h2{
+  margin-bottom: 20px;
+}
+
+.skills{
+  border: 1px solid;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.skills{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.skills>img{
+  width: 200px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
