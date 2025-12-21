@@ -35,7 +35,7 @@
   line-height: 1.5;
 }
 
-.project-title, .skill-title, .certificate-title, .certificate, .achievement{
+.project-title, .skill-title, .certificate-title, .certificate, .achievements{
   text-align: center;
   margin: auto;
   margin-top: 50px;
@@ -105,6 +105,25 @@
   border-radius: 10px;
 }
 
-.certificate-container>div>a>img{
+.certificate-container{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.achievement-container{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.certificate-container>div>a>img, .achievement-container>div>a>img{
   width: 300px;
+  margin: auto;
+  margin-top: 20px;
 }

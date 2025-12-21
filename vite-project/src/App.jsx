@@ -107,23 +107,25 @@ function App() {
           </div>
         </div>
         <h1 className='certificate-title'>Certificates and Achievements</h1>
+        <h2 className='certificate'>Certificates</h2>
         <div className='certificate-container'>
-          <h2 className='certificate'>Certificates</h2>
           <div>
             <a href="https://drive.google.com/file/d/1xFRyNMl9yQA18XQ4JAWL6tDnISJ0FqEZ/view?usp=sharing" target='blank'><img src="/images/Certificate-of-Participation.jpg" alt="participaton-certificate" /></a>
             <p>Prepleaf by Masai</p>
           </div>
           <div>
-            <img src="https://drive.google.com/file/d/1Q6u8kdTk89bp7BsVkQbUMwFJemBFUWKV/view?usp=sharing" alt="certificate-of-excellence" />
+            <a href="https://drive.google.com/file/d/1Q6u8kdTk89bp7BsVkQbUMwFJemBFUWKV/view?usp=sharing" target='blank'><img src="/images/Certificate-of-Excellence.png" alt="certificate-of-excellence" /></a>
             <p>Prepleaf by Masai</p>
           </div>
           <div>
-            <img src="https://drive.google.com/file/d/1Ak3tuZMxO4TtmEKj04ZjeDdH1NgRhC3e/view?usp=sharing" alt="basic-web-development-certificate" />
+            <a href="https://drive.google.com/file/d/1Ak3tuZMxO4TtmEKj04ZjeDdH1NgRhC3e/view?usp=sharing" target='blank'><img src="/images/basics-of-web-development-certificate.jpg" alt="basic-web-development-certificate"/></a>
             <p>Prepleaf by Masai</p>
           </div>
-          <h2 className='achievements'>Achievements</h2>
+        </div>
+        <h2 className='achievements'>Achievements</h2>
+        <div className='achievement-container'>
           <div>
-            <img src="https://drive.google.com/file/d/1DqqkDGQb8AfXJK7Z-Dx2J_S_Rnf_U1c6/view?usp=sharing" alt="zoom-marathon-challenge-logo" />
+            <a href="https://drive.google.com/file/d/1DqqkDGQb8AfXJK7Z-Dx2J_S_Rnf_U1c6/view?usp=sharing" target='blang'><img src="/images/Zoom-Marathon-Certificate.jpg" alt="zoom-marathon-challenge-logo" /></a>
             <p>Prepleaf by Masai</p>
           </div>
         </div>
