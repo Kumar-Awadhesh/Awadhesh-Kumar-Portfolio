@@ -4,26 +4,30 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+
+
   return (
     <>
       <main className='container'>
         <nav className='navbar'>
-          <div><h2>Awadhesh Kumar</h2></div>
+          <div id='awadhesh'><h2>Awadhesh Kumar</h2></div>
           <div>
-            <h3>Home</h3>
-            <h3>Projects</h3>
-            <h3>Resume</h3>
-            <h3>About</h3>
+            <a href="awadhesh"><h3>Home</h3></a>
+            <a href="#project-title"><h3>Projects</h3></a>
+            <a href="/images/Awadhesh-Kumar-Resume.pdf" target='blank'><h3>Resume</h3></a>
+            <a href="/images/Awadhesh-Kumar-Resume.pdf" download><h3>Resume Download</h3></a>
+            <a href="#certificate-title"><h3>Certificates</h3></a>
+            <a href="#intro"><h3>About</h3></a>
           </div>
         </nav>
-        <div className='intro'>
+        <div className='intro' id='intro'>
           <h3>Hi! I am Awadhesh Kumar</h3>
           <b>
             Passionate Full Stack Web Developer ll MERN, Mastered in 
             JavaScript, HTML, CSS, React.js, Node.js, Express.js and Python.
           </b>
         </div>
-        <h1 className='project-title'>Projects</h1>
+        <h1 className='project-title' id='project-title'>Projects</h1>
         <div className='projects'>
           <div>
             <h2>Tata-1mg</h2>
@@ -106,7 +110,7 @@ function App() {
             </p>
           </div>
         </div>
-        <h1 className='certificate-title'>Certificates and Achievements</h1>
+        <h1 className='certificate-title' id='certificate-title'>Certificates and Achievements</h1>
         <h2 className='certificate'>Certificates</h2>
         <div className='certificate-container'>
           <div>
