@@ -1,10 +1,11 @@
 *{
   margin: 0;
+  color: whitesmoke;
   font-family: sans-serif;
 }
 
 .container{
-  background-color: lightblue;
+  background-color: #00202e;
 }
 
 .navbar{
@@ -13,7 +14,7 @@
   margin: auto;
   position: fixed;
   flex-wrap: wrap;
-  background-color: darkcyan;
+  background-color: #003f5c;
   justify-content: space-between;
 }
 
@@ -29,7 +30,6 @@
 
 .navbar>div:last-child>a{
   text-decoration: none;
-  color: black;
 }
 
 .intro{
@@ -45,7 +45,7 @@
   margin: auto;
   margin-top: 50px;
   padding: 10px;
-  background-color: lightseagreen;
+  background-color: #003f5c;
 }
 
 .projects{
@@ -64,7 +64,7 @@
   padding: 20px;
   line-height: 2;
   border-radius: 15px;
-  background-color: lightseagreen;
+  background-color: #011b27;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -79,7 +79,6 @@
 
 .projects>div>p>a{
    text-decoration: none;
-   color: black;
 }
 
 .projects>div>h2{
@@ -99,14 +98,13 @@
   padding: 20px 0 20px 0;
   border-radius: 10px;
   justify-content: center;
-  background-color: lightseagreen;
+  background-color: #011b27;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .skills>img{
   width: 200px;
   height: 200px;
-  background-color: whitesmoke;
   border-radius: 10px;
 }
 

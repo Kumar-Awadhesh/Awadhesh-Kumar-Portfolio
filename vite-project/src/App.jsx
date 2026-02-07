@@ -10,9 +10,9 @@ function App() {
     <>
       <main className='container'>
         <nav className='navbar'>
-          <div id='awadhesh'><h2>Awadhesh Kumar</h2></div>
+          <div className='awadhesh'><h2>Awadhesh Kumar</h2></div>
           <div>
-            <a href="awadhesh"><h3>Home</h3></a>
+            <a href="#intro"><h3>Home</h3></a>
             <a href="#project-title"><h3>Projects</h3></a>
             <a href="/images/Awadhesh-Kumar-Resume.pdf" target='blank'><h3>Resume</h3></a>
             <a href="/images/Awadhesh-Kumar-Resume.pdf" download><h3>Resume Download</h3></a>
